@@ -2,7 +2,7 @@ React Weather Dashboard 🌦️
 
 A sleek, responsive weather dashboard built with React.js that provides real-time weather data for cities around the world. This application leverages the OpenWeatherMap API to deliver accurate weather information, including temperature, humidity, and wind speed, through a clean and user-friendly interface.
 
-Live Demo : https://weather-app-five-gamma-67.vercel.app/
+Live Demo : https://open-weather-api-application-using.vercel.app/
 
 
 
