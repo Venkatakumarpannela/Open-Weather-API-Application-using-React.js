@@ -1,0 +1,65 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #e0e0e0;
+  --accent-color: #4a90e2;
+  --background-blur: 10px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./assets/background.jpg') no-repeat center center/cover;
+  color: var(--primary-color);
+  overflow: hidden; /* Prevents scrollbars from background */
+  
+}
+
+.app-container {
+  /* width: 100%; */
+  max-width: 450px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(var(--background-blur));
+  -webkit-backdrop-filter: blur(var(--background-blur));
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  text-align: center;
+}
+
+/* Loader Styles */
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-left-color: var(--primary-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 2rem auto;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Error Styles */
+.error-message {
+  color: #ff6b6b;
+  background-color: rgba(255, 107, 107, 0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}

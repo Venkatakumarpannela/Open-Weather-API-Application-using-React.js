@@ -1,0 +1,53 @@
+/* src/components/WeatherCard.css */
+.weather-card {
+  margin-top: 1rem;
+}
+
+.city-name {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.weather-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.temperature {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.weather-description {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.detail-item strong {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.detail-item p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
